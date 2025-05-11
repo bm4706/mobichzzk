@@ -33,6 +33,14 @@ pip install -r requirements.txt
 # Playwright 브라우저 설치
 playwright install chromium
 
+# .env 파일 설치해야합니다! 
+설치하고 아래 3줄을 넣고 원하시는대로 지정하시면 됩니다!
+
+SECRET_KEY = 'example_key'
+DJANGO_ADMIN_URL=example/
+DJANGO_CRAWLER_URL=example2/
+
+
 # 데이터베이스 마이그레이션
 python manage.py migrate
 
